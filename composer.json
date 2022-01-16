@@ -1,0 +1,25 @@
+{
+    "name": "mf-php/json-mailer",
+    "description": "json in mail out",
+    "type": "library",
+    "require": {
+        "symfony/mailer": "^6.0",
+        "monolog/monolog": "^2.3"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "MfPhp\\JsonMailer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas Koudela",
+            "email": "thomas@koudela.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "symfony/var-dumper": "^6.0"
+    }
+}
